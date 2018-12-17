@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
        # frame = numpy.asarray(detect(frame))
         cv2.imshow("features", frame)
-        #cv2.imshow('fdf',gray)
+        cv2.imshow('fdf',gray)
         if cv2.waitKey(10) == 0x1b: # ESC
             print ('ESC pressed. Exiting ...')
             break
