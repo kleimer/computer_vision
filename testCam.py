@@ -19,7 +19,7 @@ if __name__ == "__main__":
         for (x, y, w, h) in faces:
             frame=cv2.rectangle(frame,(x,y),(x+w,y+h),(255,0,0),2)
             roi_gray = gray[y:y + h, x:x + w]
-            roi_color = frame[y:y + h, x:x + w]
+            #roi_color = frame[y:y + h, x:x + w]
 
 
         #    for (ex, ey, ew, eh) in eyes:
